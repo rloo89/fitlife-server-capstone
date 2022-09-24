@@ -1,0 +1,21 @@
+[
+{
+    "id": "9a0c7f1f-0ae2-4e14-81c5-d3578e897241",
+    "title": "First Post!",
+    "description": "I'm so honored to post my first video on BrainFlix :)",
+    "image": "image9.jpeg",
+    "channel": "Robert's Channel",
+    "views": "438,202",
+    "likes": "158,321",
+    "duration": "4:20",
+    "video": ""
+},
+{
+    "id": "bdbabd59-ab10-498c-b9a3-a2947c33f87e",
+    "image": "Not sure yet",
+    "recipetitle": "Tiramisu",
+    "recipeIntroduction": "This is a delicacy from Grandma",
+    "ingredients": "1 apple",
+    "howto": "158,321"
+}
+]
