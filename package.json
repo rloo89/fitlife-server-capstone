@@ -1,0 +1,27 @@
+{
+  "name": "capstone-fitlife-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rloo89/fitlife-server-capstone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rloo89/fitlife-server-capstone/issues"
+  },
+  "homepage": "https://github.com/rloo89/fitlife-server-capstone#readme",
+  "description": ""
+}
