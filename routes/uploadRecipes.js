@@ -3,13 +3,15 @@ const router = express.Router();
 const fs = require("fs");
 const crypto = require("crypto");
 
+//This function parses the json file
+
 function readRecipes(){
     const recipesFile =fs.readFileSync("./data/recipes.json");
     const videoData = JSON.parse(recipesFile);
     return videoData
 }
 
-
+// GET all recipes
 
 router.get("/", (req, res) => {
     const recipes = readRecipes();

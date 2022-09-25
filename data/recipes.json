@@ -3,9 +3,9 @@
     "id": "9a0c7f1f-0ae2-4e14-81c5-d3578e897241",
     "image": "Not sure yet",
     "recipetitle": "Tiramisu",
-    "recipeintroduction": "This is a delicacy from Grandma",
+    "recipeintroduction": "Made of fried rice",
     "ingredients": "1 apple",
-    "howto": "158,321"
+    "howto": "Put the chicken in the boiling water for 10 minutes"
 },
 {
     "id": "bdbabd59-ab10-498c-b9a3-a2947c33f87e",
@@ -13,6 +13,6 @@
     "recipetitle": "Tiramisu",
     "recipeintroduction": "This is a delicacy from Grandma",
     "ingredients": "1 apple",
-    "howto": "158,321"
+    "howto": "Chop the vegetables"
 }
 ]

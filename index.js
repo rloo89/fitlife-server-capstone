@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT;
-// const video = require("./routes/videos");
+const recipes = require("./routes/uploadRecipes");
 
 const cors = require("cors");
 app.use(express.json());
@@ -14,6 +14,8 @@ app.use((req, res, next) => {
     console.log("Incoming request");
     next();
   });
+
+app.use("/recipes", recipes);
 
 
 app.listen(PORT, () => {
