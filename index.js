@@ -1,26 +1,17 @@
 require("dotenv").config();
+const cors = require("cors");
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT;
-const recipes = require("./routes/uploadRecipes");
 
-const cors = require("cors");
+
+app.use(cors());
 app.use(express.json());
 
 
-
-// This middleware is a basic example that runs on every request
-app.use((req, res, next) => {
-    console.log("Incoming request");
-    next();
-  });
-
-app.use((req, res, next) => {
-console.log("Loading");
-next();
-});
-
-app.use("/recipes", recipes);
+// 
+const uploadrecipeRoute = require("./routes/uploadRecipes");
+app.use("/uploadrecipes", uploadrecipeRoute);
 
 
 app.listen(PORT, () => {
