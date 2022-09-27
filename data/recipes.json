@@ -1,18 +1,100 @@
 [
-{
-    "id": "9a0c7f1f-0ae2-4e14-81c5-d3578e897241",
-    "image": "Not sure yet",
-    "recipetitle": "Tiramisu",
-    "recipeintroduction": "Made of fried rice",
-    "ingredients": "1 apple",
-    "howto": "Put the chicken in the boiling water for 10 minutes"
-},
-{
-    "id": "bdbabd59-ab10-498c-b9a3-a2947c33f87e",
-    "image": "Not sure yet",
-    "recipetitle": "Tiramisu",
-    "recipeintroduction": "This is a delicacy from Grandma",
-    "ingredients": "1 apple",
-    "howto": "Chop the vegetables"
-}
+    {
+        "id": "9a0c7f1f-0ae2-4e14-81c5-d3578e897241",
+        "image": "Not sure yet",
+        "recipetitle": "Tiramisu",
+        "recipeintroduction": "Made of fried rice",
+        "ingredients": "1 apple",
+        "howto": "Put the chicken in the boiling water for 10 minutes"
+    },
+    {
+        "id": "bdbabd59-ab10-498c-b9a3-a2947c33f87e",
+        "image": "Not sure yet",
+        "recipetitle": "Tiramisu",
+        "recipeintroduction": "This is a delicacy from Grandma",
+        "ingredients": "1 apple",
+        "howto": "Chop the vegetables"
+    },
+    {
+        "id": "45424414-74e8-4175-a407-46f406ebb53e",
+        "images": [
+            {},
+            {}
+        ],
+        "recipetitle": "Hi",
+        "recipeintroduction": "Hi",
+        "ingredients": "Hi",
+        "howto": "Hi"
+    },
+    {
+        "id": "8998d834-a5ad-412f-886b-e8c911be3dac",
+        "images": "[{},{}]",
+        "recipetitle": "Hi",
+        "recipeintroduction": "Hi",
+        "ingredients": "Hi",
+        "howto": "Hi"
+    },
+    {
+        "id": "b7932e1e-d5f4-4cf1-a652-2b0ef9d92490",
+        "images": "[{},{}]",
+        "recipetitle": "Hi",
+        "recipeintroduction": "Hi",
+        "ingredients": "Hi",
+        "howto": "Hi"
+    },
+    {
+        "id": "6b2d62da-e7cc-4dd8-8265-d5967fd28924",
+        "images": [
+            "Foto.jpeg",
+            "Hackathon - Show Prime.jpeg"
+        ],
+        "recipetitle": "Hi",
+        "recipeintroduction": "Hi",
+        "ingredients": "Hi",
+        "howto": "Hi"
+    },
+    {
+        "id": "6b2d62da-e7cc-4dd8-8265-d5967fd28921",
+        "images": [
+            "Foto.jpeg",
+            "Hackathon - Show Prime.jpeg"
+        ],
+        "recipetitle": "Hi",
+        "recipeintroduction": "Hi",
+        "ingredients": "Hi",
+        "howto": "Hi"
+    },
+    {
+        "id": "6b2d62da-e7cc-4dd8-8265-d5967fd23224",
+        "images": [
+            "Foto.jpeg",
+            "Hackathon - Show Prime.jpeg"
+        ],
+        "recipetitle": "Hi",
+        "recipeintroduction": "Hi",
+        "ingredients": "Hi",
+        "howto": "Hi"
+    },
+    {
+        "id": "6b2d62da-e7cc-4dd8-8265-d5967fd11924",
+        "images": [
+            "Foto.jpeg",
+            "Hackathon - Show Prime.jpeg"
+        ],
+        "recipetitle": "California Roll",
+        "recipeintroduction": "My first homemade Sushi",
+        "ingredients": "Raw fish",
+        "howto": "Buy raw sushi from supermarket"
+    },
+    {
+        "id": "6b2d62da-e7cc-4dd8-8265-d5967fd11955",
+        "images": [
+            "Foto.jpeg",
+            "Hackathon - Show Prime.jpeg"
+        ],
+        "recipetitle": "My Sushi Recipe",
+        "recipeintroduction": "Delicious sushi",
+        "ingredients": "Raw fish",
+        "howto": "Buy raw sushi from supermarket"
+    }
 ]

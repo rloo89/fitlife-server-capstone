@@ -7,8 +7,8 @@ const crypto = require("crypto");
 
 function readRecipes(){
     const recipesFile =fs.readFileSync("./data/recipes.json");
-    const videoData = JSON.parse(recipesFile);
-    return videoData
+    const recipeData = JSON.parse(recipesFile);
+    return recipeData
 }
 
 // GET all recipes
@@ -23,9 +23,9 @@ router.post("/", (req, res) => {
     // Make a new recipe post
     const newRecipe = {
       id: crypto.randomUUID(),
-      image: req.body.image,
-      recipetitle: req.body.reciptitle,
-      titleintroduction: req.body.recipeintroduction,
+      images: req.body.images,
+      recipetitle: req.body.recipetitle,
+      recipeintroduction: req.body.recipeintroduction,
       ingredients: req.body.ingredients,
       howto: req.body.howto,
 
@@ -35,7 +35,7 @@ router.post("/", (req, res) => {
     // 2. Add to the recipes array
     // 3. Write the entire new recipes array to the file
     const recipes = readRecipes();
-    videos.push(newRecipe);
+    recipes.push(newRecipe);
     fs.writeFileSync("./data/recipes.json", JSON.stringify(recipes));
     res.status(201).json(newRecipe);
 });
