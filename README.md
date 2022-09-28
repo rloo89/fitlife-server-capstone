@@ -15,6 +15,7 @@ Creating personalized log-in features such as saving the users inputs such as ca
 Desktop Responsive Design
 Add more features and US Units to the BMR Calculator.
 Comments section where people can share their reviews.
+
 Tech Stack:
 
 React, SASS, Flexbox, Node, Express,Git & Github, HTML, CSS, Javascript
