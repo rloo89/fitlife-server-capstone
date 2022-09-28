@@ -5,10 +5,12 @@ const fs = require("fs");
 const { search } = require("./routes/uploadRecipes");
 const app = express();
 const PORT = process.env.PORT;
+const fileUpload = require("express-fileupload");
 
 
 app.use(cors());
 app.use(express.json());
+app.use(fileUpload());
 
 app.use("/images", express.static("./public/images"));
 
